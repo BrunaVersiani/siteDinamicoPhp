@@ -1,5 +1,5 @@
 <?php
-	$paginas = ['home'=>'Minha página home aqui!', 'sobre'=>'Estou no sobre', 'contato'=>'<form><input type="text" placeholder="Rayane" /></form>'];
+	$paginas = ['home'=>'Minha página home aqui!', 'sobre'=>'Estou no sobre', 'contato'=>'<form><input type="text" placeholder="Rayane" /></form>','time'=>'Trabalhe conosco'];
 ?>
 <!DOCTYPE html>
 <html>
@@ -21,6 +21,21 @@
 			display: inline-block;
 			margin:0 10px;
 			color: white;
+			font-size: 20px;
+		}
+		section{
+			max-width: 960px;
+			margin: 20px auto;
+			padding: 0 2%;
+		}
+		h2{
+			background-color: #069;
+			color: white;
+			padding: 8px 10px;
+		}
+		p{
+			color: black;
+			margin-top: 10px;
 			font-size: 20px;
 		}
 	</style>
