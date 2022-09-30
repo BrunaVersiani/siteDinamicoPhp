@@ -1,6 +1,8 @@
+#Neste array contem os links topicos da minha página
 <?php
 	$paginas = ['home'=>'Minha página home aqui!', 'sobre'=>'Estou no sobre', 'contato'=>'<form><input type="text" placeholder="Rayane" /></form>','time'=>'Trabalhe conosco'];
 ?>
+#Aqui esta o meu documento html, o php permite que voce faça interações comele em toda a parte do seu codigo, inclusive pode ser uma interação como javascript também.
 <!DOCTYPE html>
 <html>
 <head>
